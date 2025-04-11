@@ -7,6 +7,8 @@ Cube MQTT is a user-friendly mobile application developed using React Native and
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Example](#example)
+- [Screenshots](#screenshots)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 - [Download APK](#download-apk)
@@ -67,7 +69,15 @@ To test the app with a public MQTT broker, use the following details:
 
 Enter these details in the Main Page, connect to the broker, subscribe to the topic, and publish a test message to see the app in action. Check the Log Page to verify the events.
 
-Screenshots demonstrating the app’s functionality are available in the [screenshots directory](https://github.com/mhyar-nsi/cube-mqtt/tree/main/screenshots).
+## Screenshots
+
+Explore the app's interface through the following screenshots:
+
+| Main Page | Log Page | Settings Page |
+|-----------|----------|---------------|
+| ![Main Page](screenshots/main-page.jpg) | ![Log Page](screenshots/log-page.jpg) | ![Settings Page](screenshots/settings-page.jpg) |
+
+For more images, check out the [screenshots directory](https://github.com/yourusername/cube-mqtt/tree/main/screenshots).
 
 ## License
 
