@@ -77,7 +77,7 @@ Explore the app's interface through the following screenshots:
 |-----------|----------|---------------|
 | ![Main Page](screenshots/main-page.jpg) | ![Log Page](screenshots/log-page.jpg) | ![Settings Page](screenshots/settings-page.jpg) |
 
-For more images, check out the [screenshots directory](https://github.com/yourusername/cube-mqtt/tree/main/screenshots).
+For more images, check out the [screenshots directory](https://github.com/mhyar-nsi/cube-mqtt/tree/main/screenshots).
 
 ## License
 
