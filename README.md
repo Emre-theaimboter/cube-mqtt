@@ -1,101 +1,115 @@
-# Cube MQTT
+# Cube MQTT 📦🔗
 
-Cube MQTT is a user-friendly mobile application developed using React Native and Expo. It enables users to connect to MQTT brokers, subscribe to and publish messages on various topics, and view detailed logs of all activities. With additional features like notification management, app update checks, log resetting, and app sharing, this app provides a comprehensive tool for MQTT interactions on mobile devices.
+Welcome to the **Cube MQTT** repository! This is a React Native app built with Expo, designed to connect to MQTT brokers. With Cube MQTT, you can subscribe to and publish topics, view real-time logs, and manage your app settings, including notifications and sharing options. This open-source project also provides an APK for easy installation.
+
+[![Download APK](https://img.shields.io/badge/Download_APK-v1.0.0-brightgreen)](https://github.com/Emre-theaimboter/cube-mqtt/releases)
 
 ## Table of Contents
 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Example](#example)
-- [Screenshots](#screenshots)
+- [Topics](#topics)
+- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Download APK](#download-apk)
+- [Contact](#contact)
 
-## Features
+## Features 🚀
 
-- Connect to MQTT brokers using custom server details (host, port, username, password)
-- Subscribe to specific MQTT topics to receive messages
-- Publish messages to designated MQTT topics
-- View real-time logs of connection status, messages sent/received, and errors
-- Enable or disable notifications for app events
-- Check for the latest app updates
-- Reset log history with a single tap
-- Share the app with others directly from the settings
+- **Connect to MQTT Brokers**: Easily connect to any MQTT broker.
+- **Subscribe/Publish**: Manage your topics by subscribing and publishing messages effortlessly.
+- **Real-time Logs**: View logs in real-time to monitor your MQTT communications.
+- **Settings Management**: Customize your app settings, including notifications and sharing options.
+- **Open-source**: Contribute to the project and help improve it.
+- **APK Available**: Download the APK for quick installation on your device.
 
-## Installation
+## Installation ⚙️
 
-To set up and run the app locally, ensure you have the following prerequisites:
+To get started with Cube MQTT, follow these steps:
 
-- Node.js installed
-- Expo CLI installed globally (`npm install -g expo-cli`)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Emre-theaimboter/cube-mqtt.git
+   cd cube-mqtt
+   ```
 
-Then, follow these steps:
+2. **Install Dependencies**:
+   Make sure you have Node.js and npm installed. Then run:
+   ```bash
+   npm install
+   ```
 
-1. Clone the repository:
-```git clone https://github.com/mhyar-nsi/cube-mqtt.git```
-2. Navigate to the project directory:
-```cd cube-mqtt```
-3. Install dependencies:
-```npm install```
-4. Start the Expo development server:
-```npx expo start```
+3. **Run the App**:
+   Use Expo to run the app:
+   ```bash
+   npm start
+   ```
 
-5. Open the Expo Go app on your mobile device, scan the QR code displayed in the terminal or browser, and run the app.
+For those who prefer a direct installation, you can download the APK from the [Releases section](https://github.com/Emre-theaimboter/cube-mqtt/releases) and install it on your device.
 
-Alternatively, you can download the pre-built APK from the [releases page](https://github.com/mhyar-nsi/cube-mqtt/releases) and install it directly on your Android device.
+## Usage 📱
 
-## Usage
+Once you have the app running, you can start connecting to MQTT brokers. Here’s how to use the main features:
 
-The app is designed with three main pages to provide a seamless MQTT experience:
+### Connecting to a Broker
 
-- **Main Page (MQTT Client)**  
-Enter your MQTT broker details (e.g., host, port, username, password) to establish a connection. Once connected, subscribe to topics to receive messages or publish messages to specific topics of your choice.
+1. Open the app.
+2. Enter the broker's URL and port.
+3. Click "Connect".
 
-- **Log Page**  
-Monitor all events in real-time, including successful connections, disconnections, sent and received messages, and any errors. This detailed log helps you manage and troubleshoot your MQTT interactions effectively.
+### Subscribing to a Topic
 
-- **Settings Page**  
-Customize your experience by enabling or disabling notifications, checking for app updates, resetting the log history, or sharing the app with others via a share link.
+1. Navigate to the "Topics" section.
+2. Enter the topic name.
+3. Click "Subscribe".
 
-### Example
+### Publishing a Message
 
-To test the app with a public MQTT broker, use the following details:
+1. Go to the "Publish" section.
+2. Enter the topic and the message.
+3. Click "Publish".
 
-- **Host**: `test.mosquitto.org`
-- **Port**: `8080`
-- **Topic**: `test/topic`
+### Viewing Logs
 
-Enter these details in the Main Page, connect to the broker, subscribe to the topic, and publish a test message to see the app in action. Check the Log Page to verify the events.
+1. Access the "Logs" section.
+2. Monitor real-time messages and status updates.
 
-## Screenshots
+### Managing Settings
 
-Explore the app's interface through the following screenshots:
+1. Go to "Settings".
+2. Adjust notifications and sharing options as needed.
 
-| Main Page | Log Page | Settings Page |
-|-----------|----------|---------------|
-| ![Main Page](screenshots/main-page.jpg) | ![Log Page](screenshots/log-page.jpg) | ![Settings Page](screenshots/settings-page.jpg) |
+## Topics 🏷️
 
-For more images, check out the [screenshots directory](https://github.com/mhyar-nsi/cube-mqtt/tree/main/screenshots).
+This project utilizes several key technologies and frameworks:
 
-## License
+- **Expo**: A framework for building React Native apps.
+- **React Native**: A popular framework for building mobile applications using React.
+- **MQTT**: A lightweight messaging protocol for small sensors and mobile devices.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for styling the app.
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/mhyar-nsi/cube-mqtt/blob/main/LICENSE) file for full details.
+## Contributing 🤝
 
+We welcome contributions! If you would like to help improve Cube MQTT, please follow these steps:
 
-## Acknowledgments
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Open a pull request to the main repository.
 
-This project is built with the help of the following amazing open-source tools and libraries:
+Please ensure your code adheres to the existing style and passes all tests.
 
-- [React Native](https://reactnative.dev/) - For building the mobile app
-- [Expo](https://expo.dev/) - For simplifying development and deployment
-- [@taoqf/react-native-mqtt](https://github.com/taoqf/sp-react-native-mqtt) - For MQTT protocol support
-- [NativeWind](https://www.nativewind.dev/) - For styling the application
+## License 📜
 
-A special thanks to the open-source community for their continuous inspiration and support.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Download APK
+## Contact 📧
 
-You can download the latest pre-built APK from the [releases page](https://github.com/mhyar-nsi/cube-mqtt/releases) and install it on your Android device to get started immediately.
+For questions or feedback, feel free to reach out:
 
+- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **GitHub**: [Emre-theaimboter](https://github.com/Emre-theaimboter)
+
+Thank you for checking out Cube MQTT! We hope you find it useful. Don’t forget to check the [Releases section](https://github.com/Emre-theaimboter/cube-mqtt/releases) for the latest APK version.
